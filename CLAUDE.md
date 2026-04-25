@@ -1,5 +1,7 @@
 # flyokai/composition
 
+> User docs → [`README.md`](README.md) · Agent quick-ref → [`CLAUDE.md`](CLAUDE.md) · Agent deep dive → [`AGENTS.md`](AGENTS.md)
+
 Module ordering via topological sort. Provides `sortComposition()` and `castCompositionArgument()` functions for dependency-based ordering with `before`/`after`/`depends` declarations.
 
 See [AGENTS.md](AGENTS.md) for detailed module knowledge.
