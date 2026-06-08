@@ -1,0 +1,24 @@
+{
+    "name": "flyokai/composition",
+    "description": "Composition helpers",
+    "require": {
+        "marcj/topsort": "^2"
+    },
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "src/functions/composition.php"
+        ],
+        "psr-4": {
+            "Flyokai\\Composition\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-dev-main": "1.1.x-dev",
+            "dev-main": "1.1.x-dev"
+        }
+    }
+}
